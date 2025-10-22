@@ -1,0 +1,18 @@
+[2025-10-21T13:19:11.492+0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-10-21T13:19:14.531+0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_etl.transform_task scheduled__2025-10-20T00:00:00+00:00 [queued]>
+[2025-10-21T13:19:15.783+0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_etl.transform_task scheduled__2025-10-20T00:00:00+00:00 [queued]>
+[2025-10-21T13:19:15.784+0300] {taskinstance.py:2306} INFO - Starting attempt 1 of 4
+[2025-10-21T13:19:17.457+0300] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): transform_task> on 2025-10-20 00:00:00+00:00
+[2025-10-21T13:19:17.498+0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'stock_etl', 'transform_task', 'scheduled__2025-10-20T00:00:00+00:00', '--job-id', '133', '--raw', '--subdir', 'DAGS_FOLDER/stock_etl_dag.py', '--cfg-path', '/tmp/tmpag8cvhve']
+[2025-10-21T13:19:17.515+0300] {standard_task_runner.py:91} INFO - Job 133: Subtask transform_task
+[2025-10-21T13:19:17.518+0300] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=174) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-21T13:19:17.521+0300] {standard_task_runner.py:64} INFO - Started process 182 to run task
+[2025-10-21T13:19:29.192+0300] {task_command.py:426} INFO - Running <TaskInstance: stock_etl.transform_task scheduled__2025-10-20T00:00:00+00:00 [running]> on host 66b258a88eb1
+[2025-10-21T13:19:49.450+0300] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='stock_etl' AIRFLOW_CTX_TASK_ID='transform_task' AIRFLOW_CTX_EXECUTION_DATE='2025-10-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-10-20T00:00:00+00:00'
+[2025-10-21T13:19:49.453+0300] {taskinstance.py:430} INFO - ::endgroup::
+[2025-10-21T13:19:54.960+0300] {python.py:237} INFO - Done. Returned value was: None
+[2025-10-21T13:19:54.961+0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-10-21T13:19:59.543+0300] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=stock_etl, task_id=transform_task, run_id=scheduled__2025-10-20T00:00:00+00:00, execution_date=20251020T000000, start_date=20251021T101914, end_date=20251021T101959
+[2025-10-21T13:20:07.463+0300] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-10-21T13:20:10.092+0300] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-10-21T13:20:10.341+0300] {local_task_job_runner.py:222} INFO - ::endgroup::

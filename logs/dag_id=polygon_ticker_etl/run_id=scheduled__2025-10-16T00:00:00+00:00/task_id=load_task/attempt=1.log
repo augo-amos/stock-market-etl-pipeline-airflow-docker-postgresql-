@@ -1,0 +1,20 @@
+[2025-10-17T14:51:47.971+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-10-17T14:51:48.049+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: polygon_ticker_etl.load_task scheduled__2025-10-16T00:00:00+00:00 [queued]>
+[2025-10-17T14:51:48.089+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: polygon_ticker_etl.load_task scheduled__2025-10-16T00:00:00+00:00 [queued]>
+[2025-10-17T14:51:48.090+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 4
+[2025-10-17T14:51:48.177+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_task> on 2025-10-16 00:00:00+00:00
+[2025-10-17T14:51:48.225+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'polygon_ticker_etl', 'load_task', 'scheduled__2025-10-16T00:00:00+00:00', '--job-id', '94', '--raw', '--subdir', 'DAGS_FOLDER/stock_etl_dag.py', '--cfg-path', '/tmp/tmpoc6s_2tv']
+[2025-10-17T14:51:48.240+0000] {standard_task_runner.py:91} INFO - Job 94: Subtask load_task
+[2025-10-17T14:51:48.241+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=253) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-17T14:51:48.244+0000] {standard_task_runner.py:64} INFO - Started process 255 to run task
+[2025-10-17T14:51:48.500+0000] {task_command.py:426} INFO - Running <TaskInstance: polygon_ticker_etl.load_task scheduled__2025-10-16T00:00:00+00:00 [running]> on host 7ed111c059a0
+[2025-10-17T14:51:49.173+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='polygon_ticker_etl' AIRFLOW_CTX_TASK_ID='load_task' AIRFLOW_CTX_EXECUTION_DATE='2025-10-16T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-10-16T00:00:00+00:00'
+[2025-10-17T14:51:49.176+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-10-17T14:51:49.269+0000] {logging_mixin.py:188} WARNING - /opt/***/dags/stock_etl_dag.py:97 FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+[2025-10-17T14:51:49.646+0000] {stock_etl_dag.py:108} INFO - Loaded 1 record(s) into 'stock_tickers' table.
+[2025-10-17T14:51:49.648+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-10-17T14:51:49.651+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-10-17T14:51:49.702+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=polygon_ticker_etl, task_id=load_task, run_id=scheduled__2025-10-16T00:00:00+00:00, execution_date=20251016T000000, start_date=20251017T145148, end_date=20251017T145149
+[2025-10-17T14:51:49.885+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-10-17T14:51:49.928+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-10-17T14:51:49.933+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

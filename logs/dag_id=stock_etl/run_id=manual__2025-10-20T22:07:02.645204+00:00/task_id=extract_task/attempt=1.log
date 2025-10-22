@@ -1,0 +1,22 @@
+[2025-10-21T01:07:41.235+0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-10-21T01:07:44.888+0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_etl.extract_task manual__2025-10-20T22:07:02.645204+00:00 [queued]>
+[2025-10-21T01:07:46.189+0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_etl.extract_task manual__2025-10-20T22:07:02.645204+00:00 [queued]>
+[2025-10-21T01:07:46.190+0300] {taskinstance.py:2306} INFO - Starting attempt 1 of 4
+[2025-10-21T01:07:47.688+0300] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): extract_task> on 2025-10-20 22:07:02.645204+00:00
+[2025-10-21T01:07:47.702+0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'stock_etl', 'extract_task', 'manual__2025-10-20T22:07:02.645204+00:00', '--job-id', '115', '--raw', '--subdir', 'DAGS_FOLDER/stock_etl_dag.py', '--cfg-path', '/tmp/tmpzdzamusl']
+[2025-10-21T01:07:47.704+0300] {standard_task_runner.py:91} INFO - Job 115: Subtask extract_task
+[2025-10-21T01:07:47.707+0300] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=241) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-21T01:07:47.708+0300] {standard_task_runner.py:64} INFO - Started process 249 to run task
+[2025-10-21T01:07:57.344+0300] {task_command.py:426} INFO - Running <TaskInstance: stock_etl.extract_task manual__2025-10-20T22:07:02.645204+00:00 [running]> on host 2c343af78455
+[2025-10-21T01:08:15.251+0300] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='stock_etl' AIRFLOW_CTX_TASK_ID='extract_task' AIRFLOW_CTX_EXECUTION_DATE='2025-10-20T22:07:02.645204+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-20T22:07:02.645204+00:00'
+[2025-10-21T01:08:15.514+0300] {taskinstance.py:430} INFO - ::endgroup::
+[2025-10-21T01:08:17.375+0300] {logging_mixin.py:188} INFO - Failed to fetch data for NVDA: {"status":"ERROR","request_id":"e0bc5632965340bed643f44506a1a6d5","error":"Invalid time span. The only supported resolutions are minute|hour|day|week|month|quarter|year"}
+[2025-10-21T01:08:18.035+0300] {logging_mixin.py:188} INFO - Failed to fetch data for TSLA: {"status":"ERROR","request_id":"b505438fef78a1093235f6da6565b305","error":"Invalid time span. The only supported resolutions are minute|hour|day|week|month|quarter|year"}
+[2025-10-21T01:08:18.673+0300] {logging_mixin.py:188} INFO - Failed to fetch data for MSFT: {"status":"ERROR","request_id":"813fab2226259e942099f2d1c8ac275c","error":"Invalid time span. The only supported resolutions are minute|hour|day|week|month|quarter|year"}
+[2025-10-21T01:08:19.899+0300] {logging_mixin.py:188} INFO - Failed to fetch data for GOOGL: {"status":"ERROR","request_id":"3ebb3d6be2991ccce41cac85043a5254","error":"Invalid time span. The only supported resolutions are minute|hour|day|week|month|quarter|year"}
+[2025-10-21T01:08:24.536+0300] {python.py:237} INFO - Done. Returned value was: None
+[2025-10-21T01:08:24.544+0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-10-21T01:08:27.762+0300] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=stock_etl, task_id=extract_task, run_id=manual__2025-10-20T22:07:02.645204+00:00, execution_date=20251020T220702, start_date=20251020T220744, end_date=20251020T220827
+[2025-10-21T01:08:30.040+0300] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-10-21T01:08:38.427+0300] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-10-21T01:08:38.814+0300] {local_task_job_runner.py:222} INFO - ::endgroup::

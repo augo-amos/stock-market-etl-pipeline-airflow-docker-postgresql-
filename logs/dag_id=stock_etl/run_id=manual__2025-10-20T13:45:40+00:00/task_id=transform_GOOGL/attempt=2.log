@@ -1,0 +1,16 @@
+[2025-10-20T16:52:10.142+0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-10-20T16:52:13.405+0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_etl.transform_GOOGL manual__2025-10-20T13:45:40+00:00 [queued]>
+[2025-10-20T16:52:14.429+0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_etl.transform_GOOGL manual__2025-10-20T13:45:40+00:00 [queued]>
+[2025-10-20T16:52:14.429+0300] {taskinstance.py:2306} INFO - Starting attempt 2 of 2
+[2025-10-20T16:52:16.605+0300] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): transform_GOOGL> on 2025-10-20 13:45:40+00:00
+[2025-10-20T16:52:16.623+0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'stock_etl', 'transform_GOOGL', 'manual__2025-10-20T13:45:40+00:00', '--job-id', '48', '--raw', '--subdir', 'DAGS_FOLDER/stock_etl_dag.py', '--cfg-path', '/tmp/tmp3z8aq2u0']
+[2025-10-20T16:52:16.627+0300] {standard_task_runner.py:91} INFO - Job 48: Subtask transform_GOOGL
+[2025-10-20T16:52:16.631+0300] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=261) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-20T16:52:16.632+0300] {standard_task_runner.py:64} INFO - Started process 274 to run task
+[2025-10-20T16:52:26.371+0300] {task_command.py:426} INFO - Running <TaskInstance: stock_etl.transform_GOOGL manual__2025-10-20T13:45:40+00:00 [running]> on host 51be0a441cbc
+[2025-10-20T16:52:26.994+0300] {local_task_job_runner.py:124} ERROR - Received SIGTERM. Terminating subprocesses
+[2025-10-20T16:52:27.010+0300] {process_utils.py:132} INFO - Sending 15 to group 274. PIDs of all processes in the group: [274]
+[2025-10-20T16:52:27.012+0300] {process_utils.py:87} INFO - Sending the signal 15 to group 274
+[2025-10-20T16:52:27.029+0300] {process_utils.py:80} INFO - Process psutil.Process(pid=274, status='terminated', exitcode=<Negsignal.SIGTERM: -15>, started='16:52:15') (274) terminated with exit code -15
+[2025-10-20T16:52:27.030+0300] {local_task_job_runner.py:243} INFO - Task exited with return code 143
+[2025-10-20T16:52:33.696+0300] {local_task_job_runner.py:222} INFO - ::endgroup::

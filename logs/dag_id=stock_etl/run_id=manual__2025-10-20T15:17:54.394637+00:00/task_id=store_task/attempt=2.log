@@ -1,0 +1,111 @@
+[2025-10-20T18:29:09.148+0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-10-20T18:29:11.630+0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_etl.store_task manual__2025-10-20T15:17:54.394637+00:00 [queued]>
+[2025-10-20T18:29:12.750+0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_etl.store_task manual__2025-10-20T15:17:54.394637+00:00 [queued]>
+[2025-10-20T18:29:12.751+0300] {taskinstance.py:2306} INFO - Starting attempt 2 of 2
+[2025-10-20T18:29:14.178+0300] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): store_task> on 2025-10-20 15:17:54.394637+00:00
+[2025-10-20T18:29:14.223+0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'stock_etl', 'store_task', 'manual__2025-10-20T15:17:54.394637+00:00', '--job-id', '68', '--raw', '--subdir', 'DAGS_FOLDER/stock_etl_dag.py', '--cfg-path', '/tmp/tmp_4xkdwym']
+[2025-10-20T18:29:14.266+0300] {standard_task_runner.py:91} INFO - Job 68: Subtask store_task
+[2025-10-20T18:29:14.306+0300] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=479) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-20T18:29:14.313+0300] {standard_task_runner.py:64} INFO - Started process 481 to run task
+[2025-10-20T18:29:51.255+0300] {task_command.py:426} INFO - Running <TaskInstance: stock_etl.store_task manual__2025-10-20T15:17:54.394637+00:00 [running]> on host 35ffa1457b59
+[2025-10-20T18:30:09.587+0300] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='stock_etl' AIRFLOW_CTX_TASK_ID='store_task' AIRFLOW_CTX_EXECUTION_DATE='2025-10-20T15:17:54.394637+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-20T15:17:54.394637+00:00'
+[2025-10-20T18:30:09.590+0300] {taskinstance.py:430} INFO - ::endgroup::
+[2025-10-20T18:30:13.241+0300] {logging_mixin.py:188} WARNING - /opt/airflow/dags/stock_etl_dag.py:95 FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+[2025-10-20T18:30:18.571+0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-10-20T18:30:18.573+0300] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1890, in _execute_context
+    self.dialect.do_executemany(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 982, in do_executemany
+    context._psycopg2_fetched_rows = xtras.execute_values(
+                                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/extras.py", line 1299, in execute_values
+    cur.execute(b''.join(parts))
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type double precision: "Nvidia Corp"
+LINE 1: ...l, logo_url, icon_url, timestamp) VALUES ('NVDA', 'Nvidia Co...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/stock_etl_dag.py", line 101, in store_data
+    df.to_sql("stock_metadata", engine, if_exists="append", index=False)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/generic.py", line 3008, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 788, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 1958, in to_sql
+    total_inserted = sql_engine.insert_records(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 1507, in insert_records
+    raise err
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 1498, in insert_records
+    return table.insert(chunksize=chunksize, method=method)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 1059, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 951, in _execute_insert
+    result = conn.execute(self.table.insert(), data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1385, in execute
+    return meth(self, multiparams, params, _EMPTY_EXECUTION_OPTS)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1890, in _execute_context
+    self.dialect.do_executemany(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 982, in do_executemany
+    context._psycopg2_fetched_rows = xtras.execute_values(
+                                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/extras.py", line 1299, in execute_values
+    cur.execute(b''.join(parts))
+sqlalchemy.exc.DataError: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type double precision: "Nvidia Corp"
+LINE 1: ...l, logo_url, icon_url, timestamp) VALUES ('NVDA', 'Nvidia Co...
+                                                             ^
+
+[SQL: INSERT INTO stock_metadata (ticker, name, market, locale, currency_name, market_cap, description, homepage_url, primary_exchange, total_employees, list_date, address_city, address_state, address_postal, logo_url, icon_url, timestamp) VALUES (%(ticker)s, %(name)s, %(market)s, %(locale)s, %(currency_name)s, %(market_cap)s, %(description)s, %(homepage_url)s, %(primary_exchange)s, %(total_employees)s, %(list_date)s, %(address_city)s, %(address_state)s, %(address_postal)s, %(logo_url)s, %(icon_url)s, %(timestamp)s)]
+[parameters: ({'ticker': 'NVDA', 'name': 'Nvidia Corp', 'market': 'stocks', 'locale': 'us', 'currency_name': 'usd', 'market_cap': 4460857340000.0, 'description': 'Nvidia is a leading developer of graphics processing units. Traditionally, GPUs were used to enhance the experience on computing platforms, most nota ... (241 characters truncated) ... el development and training. Nvidia is also expanding its data center networking solutions, helping to tie GPUs together to handle complex workloads.', 'homepage_url': 'https://www.nvidia.com', 'primary_exchange': 'XNAS', 'total_employees': 36000, 'list_date': '1999-01-22', 'address_city': 'SANTA CLARA', 'address_state': 'CA', 'address_postal': '95051', 'logo_url': 'https://api.polygon.io/v1/reference/company-branding/bnZpZGlhLmNvbQ/images/2025-04-04_logo.svg', 'icon_url': 'https://api.polygon.io/v1/reference/company-branding/bnZpZGlhLmNvbQ/images/2025-04-04_icon.png', 'timestamp': datetime.datetime(2025, 10, 20, 15, 21, 38, 650000)}, {'ticker': 'TSLA', 'name': 'Tesla, Inc. Common Stock', 'market': 'stocks', 'locale': 'us', 'currency_name': 'usd', 'market_cap': 1460772035728.66, 'description': 'Tesla is a vertically integrated battery electric vehicle automaker and developer of autonomous driving software. The company has multiple vehicles i ... (335 characters truncated) ... ential and commercial properties including utilities and solar panels and solar roofs for energy generation. Tesla also owns a fast-charging network.', 'homepage_url': 'https://www.tesla.com', 'primary_exchange': 'XNAS', 'total_employees': 125665, 'list_date': '2010-06-29', 'address_city': 'AUSTIN', 'address_state': 'TX', 'address_postal': '78725', 'logo_url': 'https://api.polygon.io/v1/reference/company-branding/dGVzbGEuY29t/images/2025-04-04_logo.svg', 'icon_url': 'https://api.polygon.io/v1/reference/company-branding/dGVzbGEuY29t/images/2025-04-04_icon.png', 'timestamp': datetime.datetime(2025, 10, 20, 15, 21, 38, 650000)}, {'ticker': 'MSFT', 'name': 'Microsoft Corp', 'market': 'stocks', 'locale': 'us', 'currency_name': 'usd', 'market_cap': 3817525588926.8203, 'description': 'Microsoft develops and licenses consumer and enterprise software. It is known for its Windows operating systems and Office productivity suite. The co ... (287 characters truncated) ... er OS, SQL Server), and more personal computing (Windows Client, Xbox, Bing search, display advertising, and Surface laptops, tablets, and desktops).', 'homepage_url': 'https://www.microsoft.com', 'primary_exchange': 'XNAS', 'total_employees': 228000, 'list_date': '1986-03-13', 'address_city': 'REDMOND', 'address_state': 'WA', 'address_postal': '98052-6399', 'logo_url': 'https://api.polygon.io/v1/reference/company-branding/bWljcm9zb2Z0LmNvbQ/images/2025-04-04_logo.svg', 'icon_url': 'https://api.polygon.io/v1/reference/company-branding/bWljcm9zb2Z0LmNvbQ/images/2025-04-04_icon.jpeg', 'timestamp': datetime.datetime(2025, 10, 20, 15, 21, 38, 650000)}, {'ticker': 'GOOGL', 'name': 'Alphabet Inc. Class A Common Stock', 'market': 'stocks', 'locale': 'us', 'currency_name': 'usd', 'market_cap': 3063410200000.0, 'description': "Alphabet is a holding company that wholly owns internet giant Google. The California-based company derives slightly less than 90% of its revenue from ... (454 characters truncated) ...  investments in up-and-coming technologies such as self-driving cars (Waymo), health (Verily), and internet access (Google Fiber) making up the rest.", 'homepage_url': 'https://www.abc.xyz', 'primary_exchange': 'XNAS', 'total_employees': 187103, 'list_date': '2004-08-19', 'address_city': 'MOUNTAIN VIEW', 'address_state': 'CA', 'address_postal': '94043', 'logo_url': 'https://api.polygon.io/v1/reference/company-branding/YWJjLnh5eg/images/2025-04-04_logo.svg', 'icon_url': 'https://api.polygon.io/v1/reference/company-branding/YWJjLnh5eg/images/2025-04-04_icon.png', 'timestamp': datetime.datetime(2025, 10, 20, 15, 21, 38, 650000)})]
+(Background on this error at: https://sqlalche.me/e/14/9h9h)
+[2025-10-20T18:30:21.172+0300] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=stock_etl, task_id=store_task, run_id=manual__2025-10-20T15:17:54.394637+00:00, execution_date=20251020T151754, start_date=20251020T152911, end_date=20251020T153021
+[2025-10-20T18:30:23.033+0300] {standard_task_runner.py:110} ERROR - Failed to execute job 68 for task store_task ((psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type double precision: "Nvidia Corp"
+LINE 1: ...l, logo_url, icon_url, timestamp) VALUES ('NVDA', 'Nvidia Co...
+                                                             ^
+
+[SQL: INSERT INTO stock_metadata (ticker, name, market, locale, currency_name, market_cap, description, homepage_url, primary_exchange, total_employees, list_date, address_city, address_state, address_postal, logo_url, icon_url, timestamp) VALUES (%(ticker)s, %(name)s, %(market)s, %(locale)s, %(currency_name)s, %(market_cap)s, %(description)s, %(homepage_url)s, %(primary_exchange)s, %(total_employees)s, %(list_date)s, %(address_city)s, %(address_state)s, %(address_postal)s, %(logo_url)s, %(icon_url)s, %(timestamp)s)]
+[parameters: ({'ticker': 'NVDA', 'name': 'Nvidia Corp', 'market': 'stocks', 'locale': 'us', 'currency_name': 'usd', 'market_cap': 4460857340000.0, 'description': 'Nvidia is a leading developer of graphics processing units. Traditionally, GPUs were used to enhance the experience on computing platforms, most nota ... (241 characters truncated) ... el development and training. Nvidia is also expanding its data center networking solutions, helping to tie GPUs together to handle complex workloads.', 'homepage_url': 'https://www.nvidia.com', 'primary_exchange': 'XNAS', 'total_employees': 36000, 'list_date': '1999-01-22', 'address_city': 'SANTA CLARA', 'address_state': 'CA', 'address_postal': '95051', 'logo_url': 'https://api.polygon.io/v1/reference/company-branding/bnZpZGlhLmNvbQ/images/2025-04-04_logo.svg', 'icon_url': 'https://api.polygon.io/v1/reference/company-branding/bnZpZGlhLmNvbQ/images/2025-04-04_icon.png', 'timestamp': datetime.datetime(2025, 10, 20, 15, 21, 38, 650000)}, {'ticker': 'TSLA', 'name': 'Tesla, Inc. Common Stock', 'market': 'stocks', 'locale': 'us', 'currency_name': 'usd', 'market_cap': 1460772035728.66, 'description': 'Tesla is a vertically integrated battery electric vehicle automaker and developer of autonomous driving software. The company has multiple vehicles i ... (335 characters truncated) ... ential and commercial properties including utilities and solar panels and solar roofs for energy generation. Tesla also owns a fast-charging network.', 'homepage_url': 'https://www.tesla.com', 'primary_exchange': 'XNAS', 'total_employees': 125665, 'list_date': '2010-06-29', 'address_city': 'AUSTIN', 'address_state': 'TX', 'address_postal': '78725', 'logo_url': 'https://api.polygon.io/v1/reference/company-branding/dGVzbGEuY29t/images/2025-04-04_logo.svg', 'icon_url': 'https://api.polygon.io/v1/reference/company-branding/dGVzbGEuY29t/images/2025-04-04_icon.png', 'timestamp': datetime.datetime(2025, 10, 20, 15, 21, 38, 650000)}, {'ticker': 'MSFT', 'name': 'Microsoft Corp', 'market': 'stocks', 'locale': 'us', 'currency_name': 'usd', 'market_cap': 3817525588926.8203, 'description': 'Microsoft develops and licenses consumer and enterprise software. It is known for its Windows operating systems and Office productivity suite. The co ... (287 characters truncated) ... er OS, SQL Server), and more personal computing (Windows Client, Xbox, Bing search, display advertising, and Surface laptops, tablets, and desktops).', 'homepage_url': 'https://www.microsoft.com', 'primary_exchange': 'XNAS', 'total_employees': 228000, 'list_date': '1986-03-13', 'address_city': 'REDMOND', 'address_state': 'WA', 'address_postal': '98052-6399', 'logo_url': 'https://api.polygon.io/v1/reference/company-branding/bWljcm9zb2Z0LmNvbQ/images/2025-04-04_logo.svg', 'icon_url': 'https://api.polygon.io/v1/reference/company-branding/bWljcm9zb2Z0LmNvbQ/images/2025-04-04_icon.jpeg', 'timestamp': datetime.datetime(2025, 10, 20, 15, 21, 38, 650000)}, {'ticker': 'GOOGL', 'name': 'Alphabet Inc. Class A Common Stock', 'market': 'stocks', 'locale': 'us', 'currency_name': 'usd', 'market_cap': 3063410200000.0, 'description': "Alphabet is a holding company that wholly owns internet giant Google. The California-based company derives slightly less than 90% of its revenue from ... (454 characters truncated) ...  investments in up-and-coming technologies such as self-driving cars (Waymo), health (Verily), and internet access (Google Fiber) making up the rest.", 'homepage_url': 'https://www.abc.xyz', 'primary_exchange': 'XNAS', 'total_employees': 187103, 'list_date': '2004-08-19', 'address_city': 'MOUNTAIN VIEW', 'address_state': 'CA', 'address_postal': '94043', 'logo_url': 'https://api.polygon.io/v1/reference/company-branding/YWJjLnh5eg/images/2025-04-04_logo.svg', 'icon_url': 'https://api.polygon.io/v1/reference/company-branding/YWJjLnh5eg/images/2025-04-04_icon.png', 'timestamp': datetime.datetime(2025, 10, 20, 15, 21, 38, 650000)})]
+(Background on this error at: https://sqlalche.me/e/14/9h9h); 481)
+[2025-10-20T18:30:23.133+0300] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2025-10-20T18:30:26.145+0300] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-10-20T18:30:26.459+0300] {local_task_job_runner.py:222} INFO - ::endgroup::

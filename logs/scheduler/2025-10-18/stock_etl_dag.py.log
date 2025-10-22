@@ -1,0 +1,513 @@
+[2025-10-18T21:27:02.437+0000] {processor.py:161} INFO - Started process (PID=158) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:27:02.439+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:27:02.441+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:27:02.441+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:27:05.775+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:27:15.759+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:27:15.758+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:27:18.732+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:27:18.731+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:27:27.986+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 22.430 seconds
+[2025-10-18T21:27:59.270+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:27:59.278+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:27:59.289+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:27:59.287+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:27:59.997+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:28:04.955+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:28:04.955+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:28:05.782+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:28:05.781+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:28:10.915+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 11.663 seconds
+[2025-10-18T21:28:42.365+0000] {processor.py:161} INFO - Started process (PID=174) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:28:42.367+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:28:42.370+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:28:42.370+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:28:42.662+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:28:52.292+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:28:52.292+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:28:56.632+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:28:56.632+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:29:01.579+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 16.266 seconds
+[2025-10-18T21:29:31.904+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:29:32.045+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:29:32.047+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:29:32.046+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:29:32.334+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:29:36.916+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:29:36.916+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:29:37.595+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:29:37.595+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:29:41.220+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 9.323 seconds
+[2025-10-18T21:30:12.131+0000] {processor.py:161} INFO - Started process (PID=186) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:30:12.228+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:30:12.231+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:30:12.230+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:30:12.544+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:30:17.534+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:30:17.533+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:30:18.548+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:30:18.548+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:30:26.117+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 13.994 seconds
+[2025-10-18T21:30:56.816+0000] {processor.py:161} INFO - Started process (PID=192) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:30:57.093+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:30:57.095+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:30:57.095+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:30:57.379+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:31:03.506+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:31:03.504+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:31:04.539+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:31:04.539+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:31:10.319+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 13.510 seconds
+[2025-10-18T21:31:40.796+0000] {processor.py:161} INFO - Started process (PID=198) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:31:40.936+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:31:40.939+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:31:40.938+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:31:41.247+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:31:47.083+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:31:47.082+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:31:48.259+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:31:48.259+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:31:56.114+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 12.404 seconds
+[2025-10-18T21:32:30.812+0000] {processor.py:161} INFO - Started process (PID=204) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:32:30.833+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:32:30.835+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:32:30.835+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:32:31.159+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:32:37.230+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:32:37.230+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:32:38.254+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:32:38.254+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:32:44.106+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 13.307 seconds
+[2025-10-18T21:33:15.271+0000] {processor.py:161} INFO - Started process (PID=210) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:33:15.380+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:33:15.387+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:33:15.386+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:33:15.838+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:33:22.051+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:33:22.050+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:33:23.076+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:33:23.076+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:33:28.704+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 13.445 seconds
+[2025-10-18T21:33:59.886+0000] {processor.py:161} INFO - Started process (PID=219) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:33:59.920+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:33:59.928+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:33:59.927+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:34:01.145+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:34:06.287+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:34:06.285+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:34:07.242+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:34:07.241+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:34:15.607+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 12.810 seconds
+[2025-10-18T21:34:47.958+0000] {processor.py:161} INFO - Started process (PID=225) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:34:48.272+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:34:48.278+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:34:48.276+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:34:48.796+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:34:52.906+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:34:52.904+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:34:54.369+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:34:54.368+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:34:58.050+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 10.132 seconds
+[2025-10-18T21:35:28.672+0000] {processor.py:161} INFO - Started process (PID=231) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:35:28.746+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:35:28.754+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:35:28.753+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:35:29.904+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:35:36.259+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:35:36.256+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:35:37.346+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:35:37.346+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:35:43.644+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 15.003 seconds
+[2025-10-18T21:36:15.052+0000] {processor.py:161} INFO - Started process (PID=237) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:36:15.181+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:36:15.188+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:36:15.187+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:36:15.772+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:36:21.011+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:36:21.010+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:36:21.814+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:36:21.813+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:36:25.716+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 10.701 seconds
+[2025-10-18T21:37:00.738+0000] {processor.py:161} INFO - Started process (PID=243) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:37:00.835+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:37:00.850+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:37:00.848+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:37:01.551+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:37:08.443+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:37:08.442+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:37:09.210+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:37:09.208+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:37:14.278+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 10.665 seconds
+[2025-10-18T21:37:44.891+0000] {processor.py:161} INFO - Started process (PID=249) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:37:44.896+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:37:44.908+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:37:44.906+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:37:45.861+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:37:50.845+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:37:50.843+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:37:51.725+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:37:51.724+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:37:56.392+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 11.540 seconds
+[2025-10-18T21:38:26.989+0000] {processor.py:161} INFO - Started process (PID=255) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:38:26.991+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:38:26.995+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:38:26.994+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:38:27.507+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:38:32.202+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:38:32.200+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:38:32.967+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:38:32.966+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:38:37.306+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 10.332 seconds
+[2025-10-18T21:39:07.732+0000] {processor.py:161} INFO - Started process (PID=261) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:39:07.860+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:39:07.876+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:39:07.873+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:39:08.782+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:39:13.818+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:39:13.816+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:39:14.559+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:39:14.559+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:41:08.775+0000] {processor.py:161} INFO - Started process (PID=158) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:41:08.781+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:41:08.793+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:41:08.791+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:41:12.639+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:41:21.474+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:41:21.473+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:41:22.186+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:41:22.185+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:41:25.740+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 13.427 seconds
+[2025-10-18T21:41:56.867+0000] {processor.py:161} INFO - Started process (PID=165) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:41:56.873+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:41:56.887+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:41:56.884+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:41:57.740+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:42:06.268+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:42:06.258+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:42:07.171+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:42:07.171+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:42:12.995+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 16.162 seconds
+[2025-10-18T21:42:43.755+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:42:43.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:42:43.774+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:42:43.772+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:42:44.695+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:42:50.572+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:42:50.571+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:42:51.556+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:42:51.556+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:42:56.517+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 12.801 seconds
+[2025-10-18T21:43:27.429+0000] {processor.py:161} INFO - Started process (PID=177) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:43:27.433+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:43:27.441+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:43:27.439+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:43:28.076+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:43:32.103+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:43:32.101+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:43:33.900+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:43:33.899+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:43:44.103+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 13.127 seconds
+[2025-10-18T21:44:18.660+0000] {processor.py:161} INFO - Started process (PID=183) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:44:18.663+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:44:18.666+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:44:18.666+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:44:19.215+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:44:29.134+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:44:29.133+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:44:30.204+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:44:30.204+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:44:37.460+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 18.813 seconds
+[2025-10-18T21:45:11.010+0000] {processor.py:161} INFO - Started process (PID=189) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:45:11.013+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:45:11.018+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:45:11.017+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:45:11.655+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:45:15.690+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:45:15.688+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:45:16.429+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:45:16.428+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:45:20.055+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 9.066 seconds
+[2025-10-18T21:45:51.068+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:45:51.075+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:45:51.084+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:45:51.082+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:45:51.883+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:47:32.503+0000] {processor.py:161} INFO - Started process (PID=159) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:47:32.553+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:47:32.566+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:47:32.563+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:47:36.228+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:47:41.630+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:47:41.629+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:47:42.658+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:47:42.657+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:47:48.779+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 16.317 seconds
+[2025-10-18T21:48:19.504+0000] {processor.py:161} INFO - Started process (PID=165) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:48:19.526+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:48:19.531+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:48:19.530+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:48:20.123+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:48:28.026+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:48:28.024+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:48:37.806+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:48:37.804+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:48:49.100+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 26.626 seconds
+[2025-10-18T21:49:21.495+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:49:21.519+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:49:21.527+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:49:21.526+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:49:22.191+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:49:34.255+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:49:34.254+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:49:35.263+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:49:35.263+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:49:40.928+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 19.448 seconds
+[2025-10-18T21:50:12.834+0000] {processor.py:161} INFO - Started process (PID=177) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:50:12.938+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:50:12.953+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:50:12.950+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:50:13.909+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:50:18.999+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:50:18.997+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:50:19.914+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:50:19.913+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:50:27.616+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 11.890 seconds
+[2025-10-18T21:50:58.318+0000] {processor.py:161} INFO - Started process (PID=183) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:50:58.337+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:50:58.348+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:50:58.346+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:51:02.111+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:51:07.111+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:51:07.105+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:51:07.964+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:51:07.963+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:51:11.678+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 10.470 seconds
+[2025-10-18T21:51:43.545+0000] {processor.py:161} INFO - Started process (PID=189) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:51:43.653+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:51:43.665+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:51:43.663+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:51:44.924+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:51:49.241+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:51:49.238+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:51:49.977+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:51:49.977+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:51:54.086+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 10.557 seconds
+[2025-10-18T21:52:27.412+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:52:27.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:52:27.426+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:52:27.425+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:52:28.246+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:52:32.371+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:52:32.369+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:52:33.149+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:52:33.148+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:52:36.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 9.462 seconds
+[2025-10-18T21:53:08.484+0000] {processor.py:161} INFO - Started process (PID=201) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:53:08.489+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:53:08.498+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:53:08.496+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:53:09.077+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:53:16.310+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:53:16.308+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:53:17.405+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:53:17.404+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:53:26.721+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 15.339 seconds
+[2025-10-18T21:53:59.673+0000] {processor.py:161} INFO - Started process (PID=207) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:53:59.679+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:53:59.688+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:53:59.687+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:54:00.358+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:54:04.550+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:54:04.548+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:54:05.291+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:54:05.290+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:54:08.956+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 9.315 seconds
+[2025-10-18T21:54:39.756+0000] {processor.py:161} INFO - Started process (PID=213) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:54:39.943+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:54:39.953+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:54:39.951+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:54:40.737+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:54:44.822+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:54:44.820+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:54:45.555+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:54:45.553+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:54:49.334+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 9.608 seconds
+[2025-10-18T21:55:21.673+0000] {processor.py:161} INFO - Started process (PID=219) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:55:21.679+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:55:21.688+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:55:21.686+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:55:22.345+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:55:27.417+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:55:27.416+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:55:28.323+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:55:28.322+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:55:33.022+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 11.379 seconds
+[2025-10-18T21:57:31.677+0000] {processor.py:161} INFO - Started process (PID=158) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:57:31.977+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:57:31.983+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:57:31.982+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:57:35.394+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:57:41.639+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:57:41.637+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:57:45.668+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:57:45.668+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:57:51.370+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 16.779 seconds
+[2025-10-18T21:58:21.949+0000] {processor.py:161} INFO - Started process (PID=165) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:58:22.016+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:58:22.034+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:58:22.031+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:58:22.743+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:58:31.282+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:58:31.281+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:58:32.150+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:58:32.150+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:58:37.562+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 15.652 seconds
+[2025-10-18T21:59:08.677+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:59:08.715+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:59:08.721+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:59:08.720+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:59:09.560+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:59:13.670+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:59:13.668+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:59:14.404+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:59:14.403+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:59:18.188+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 9.529 seconds
+[2025-10-18T21:59:49.470+0000] {processor.py:161} INFO - Started process (PID=177) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:59:49.500+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T21:59:49.510+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:59:49.508+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:59:50.460+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T21:59:54.533+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:59:54.532+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T21:59:55.247+0000] {logging_mixin.py:188} INFO - [2025-10-18T21:59:55.246+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 21:00:00+00:00, run_after=2025-10-18 22:00:00+00:00
+[2025-10-18T21:59:58.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 9.469 seconds
+[2025-10-18T22:00:30.603+0000] {processor.py:161} INFO - Started process (PID=185) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:00:30.608+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:00:30.618+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:00:30.616+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:00:31.264+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:00:35.283+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:00:35.281+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:00:36.019+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:00:36.017+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:00:42.731+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 9.260 seconds
+[2025-10-18T22:01:13.623+0000] {processor.py:161} INFO - Started process (PID=192) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:01:13.625+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:01:13.629+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:01:13.629+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:01:17.754+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:01:23.888+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:01:23.887+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:01:24.934+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:01:24.933+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:01:30.986+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 14.427 seconds
+[2025-10-18T22:02:02.143+0000] {processor.py:161} INFO - Started process (PID=198) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:02:02.414+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:02:02.426+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:02:02.424+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:02:03.016+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:02:07.065+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:02:07.063+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:02:07.779+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:02:07.778+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:02:11.509+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 9.382 seconds
+[2025-10-18T22:02:42.708+0000] {processor.py:161} INFO - Started process (PID=204) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:02:42.714+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:02:42.725+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:02:42.723+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:02:43.742+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:02:47.849+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:02:47.847+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:02:48.556+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:02:48.555+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:02:52.160+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 9.488 seconds
+[2025-10-18T22:03:23.583+0000] {processor.py:161} INFO - Started process (PID=210) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:03:23.593+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:03:23.597+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:03:23.596+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:03:24.663+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:03:29.972+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:03:29.971+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:03:30.863+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:03:30.862+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:03:39.497+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 12.712 seconds
+[2025-10-18T22:04:13.260+0000] {processor.py:161} INFO - Started process (PID=216) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:04:13.266+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:04:13.275+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:04:13.273+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:04:13.989+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:04:20.243+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:04:20.240+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:04:21.377+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:04:21.376+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:04:27.098+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 13.872 seconds
+[2025-10-18T22:04:57.785+0000] {processor.py:161} INFO - Started process (PID=222) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:04:57.792+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:04:57.796+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:04:57.796+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:04:58.538+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:05:02.507+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:05:02.506+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:05:03.188+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:05:03.187+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:05:06.806+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 9.036 seconds
+[2025-10-18T22:05:37.946+0000] {processor.py:161} INFO - Started process (PID=228) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:05:37.950+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:05:37.964+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:05:37.962+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:05:38.994+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:05:43.439+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:05:43.437+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:05:44.152+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:05:44.152+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:05:47.859+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 9.944 seconds
+[2025-10-18T22:06:18.987+0000] {processor.py:161} INFO - Started process (PID=234) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:06:18.991+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:06:18.995+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:06:18.994+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:06:19.527+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:06:24.668+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:06:24.667+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:06:25.599+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:06:25.598+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:06:30.496+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 11.527 seconds
+[2025-10-18T22:07:01.616+0000] {processor.py:161} INFO - Started process (PID=243) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:07:01.620+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:07:01.627+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:07:01.626+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:07:02.486+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:07:11.523+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:07:11.521+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:07:12.623+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:07:12.622+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:07:18.310+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 13.786 seconds
+[2025-10-18T22:07:48.799+0000] {processor.py:161} INFO - Started process (PID=249) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:07:48.804+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:07:48.814+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:07:48.812+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:07:49.592+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:07:53.569+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:07:53.566+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:07:54.326+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:07:54.325+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:07:58.253+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 9.492 seconds
+[2025-10-18T22:08:29.663+0000] {processor.py:161} INFO - Started process (PID=255) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:08:29.669+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:08:29.678+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:08:29.676+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:08:30.610+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:08:36.833+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:08:36.831+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:08:37.950+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:08:37.949+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:08:43.619+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 13.991 seconds
+[2025-10-18T22:09:14.612+0000] {processor.py:161} INFO - Started process (PID=261) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:09:14.777+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:09:14.786+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:09:14.784+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:09:15.515+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:09:19.466+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:09:19.464+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:09:20.261+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:09:20.260+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:09:24.233+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 9.663 seconds
+[2025-10-18T22:09:55.930+0000] {processor.py:161} INFO - Started process (PID=267) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:09:55.941+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:09:55.949+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:09:55.946+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:09:56.739+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:10:00.693+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:10:00.691+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:10:01.409+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:10:01.408+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:10:07.970+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 9.152 seconds
+[2025-10-18T22:10:40.908+0000] {processor.py:161} INFO - Started process (PID=273) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:10:40.914+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:10:40.923+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:10:40.921+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:10:41.692+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:10:47.827+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:10:47.826+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:10:48.934+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:10:48.934+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:10:54.629+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 13.752 seconds
+[2025-10-18T22:11:25.619+0000] {processor.py:161} INFO - Started process (PID=279) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:11:25.622+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:11:25.629+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:11:25.628+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:11:26.591+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:11:30.480+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:11:30.479+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:11:31.156+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:11:31.155+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:11:34.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 9.269 seconds
+[2025-10-18T22:12:06.548+0000] {processor.py:161} INFO - Started process (PID=285) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:12:06.551+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:12:06.556+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:12:06.555+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:12:07.741+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:12:11.796+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:12:11.792+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:12:12.567+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:12:12.564+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:16:27.312+0000] {processor.py:161} INFO - Started process (PID=159) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:16:27.595+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:16:27.609+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:16:27.607+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:16:34.063+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:16:41.426+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:16:41.424+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:16:42.413+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:16:42.413+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:16:46.327+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 16.126 seconds
+[2025-10-18T22:17:17.972+0000] {processor.py:161} INFO - Started process (PID=166) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:17:17.978+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:17:17.988+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:17:17.986+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:17:18.569+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:17:22.235+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:17:22.234+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:17:22.942+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:17:22.942+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:17:26.560+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 8.621 seconds
+[2025-10-18T22:17:57.491+0000] {processor.py:161} INFO - Started process (PID=172) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:17:57.496+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:17:57.507+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:17:57.506+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:17:58.110+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:18:04.526+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:18:04.525+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:18:05.229+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:18:05.229+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:18:09.372+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 11.911 seconds
+[2025-10-18T22:18:40.495+0000] {processor.py:161} INFO - Started process (PID=178) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:18:40.499+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:18:40.505+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:18:40.504+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:18:41.454+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:18:45.412+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:18:45.409+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:18:46.222+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:18:46.221+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:18:49.867+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 9.404 seconds
+[2025-10-18T22:19:25.034+0000] {processor.py:161} INFO - Started process (PID=184) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:19:25.056+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:19:25.070+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:19:25.068+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:19:28.824+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:19:35.004+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:19:35.003+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:19:36.077+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:19:36.076+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:19:41.908+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 13.978 seconds
+[2025-10-18T22:20:13.414+0000] {processor.py:161} INFO - Started process (PID=190) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:20:13.419+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:20:13.429+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:20:13.427+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:20:14.301+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:20:18.300+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:20:18.298+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:20:19.029+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:20:19.028+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:20:22.784+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 9.406 seconds
+[2025-10-18T22:20:54.263+0000] {processor.py:161} INFO - Started process (PID=196) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:20:54.266+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:20:54.272+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:20:54.271+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:20:55.080+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:21:00.301+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:21:00.298+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:21:01.284+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:21:01.283+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:21:06.029+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 11.802 seconds
+[2025-10-18T22:21:37.622+0000] {processor.py:161} INFO - Started process (PID=202) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:21:37.629+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:21:37.640+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:21:37.638+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:21:38.980+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:21:43.022+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:21:43.021+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:21:43.711+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:21:43.711+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:21:50.962+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 10.450 seconds
+[2025-10-18T22:22:25.213+0000] {processor.py:161} INFO - Started process (PID=208) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:22:25.294+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:22:25.299+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:22:25.298+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:22:25.846+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:22:29.876+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:22:29.874+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:22:30.614+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:22:30.614+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:22:34.550+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 9.353 seconds
+[2025-10-18T22:23:05.331+0000] {processor.py:161} INFO - Started process (PID=214) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:23:05.338+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:23:05.347+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:23:05.345+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:23:06.098+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:23:10.333+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:23:10.331+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:23:11.342+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:23:11.341+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:23:15.031+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 9.736 seconds
+[2025-10-18T22:23:46.012+0000] {processor.py:161} INFO - Started process (PID=220) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:23:46.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:23:46.024+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:23:46.023+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:23:46.559+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:23:51.402+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:23:51.400+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:23:52.357+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:23:52.357+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:23:55.964+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 9.978 seconds
+[2025-10-18T22:24:27.785+0000] {processor.py:161} INFO - Started process (PID=226) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:24:27.791+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:24:27.799+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:24:27.797+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:24:28.453+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:24:32.520+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:24:32.518+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:24:33.242+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:24:33.242+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:24:36.927+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 9.172 seconds
+[2025-10-18T22:25:08.588+0000] {processor.py:161} INFO - Started process (PID=232) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:25:08.594+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:25:08.603+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:25:08.602+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:25:09.313+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:25:13.254+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:25:13.253+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:25:14.046+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:25:14.045+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:25:17.664+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 9.109 seconds
+[2025-10-18T22:25:48.912+0000] {processor.py:161} INFO - Started process (PID=238) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:25:49.198+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:25:49.208+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:25:49.206+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:25:49.820+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:25:53.787+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:25:53.785+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:25:54.560+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:25:54.559+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:25:59.132+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 10.235 seconds
+[2025-10-18T22:26:31.011+0000] {processor.py:161} INFO - Started process (PID=244) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:26:31.015+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:26:31.021+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:26:31.020+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:26:31.547+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:26:35.591+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:26:35.589+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:26:36.344+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:26:36.343+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:26:40.283+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 9.304 seconds
+[2025-10-18T22:27:12.408+0000] {processor.py:161} INFO - Started process (PID=250) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:27:12.633+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:27:12.643+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:27:12.641+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:27:13.232+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:27:17.461+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:27:17.459+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:27:18.456+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:27:18.455+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:27:25.049+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 9.741 seconds
+[2025-10-18T22:27:58.616+0000] {processor.py:161} INFO - Started process (PID=256) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:27:58.620+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:27:58.625+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:27:58.624+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:27:59.214+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:28:03.184+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:28:03.183+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:28:04.172+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:28:04.171+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:28:07.815+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 9.222 seconds
+[2025-10-18T22:28:13.116+0000] {processor.py:161} INFO - Started process (PID=262) to work on /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:28:13.123+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_etl_dag.py for tasks to queue
+[2025-10-18T22:28:13.136+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:28:13.135+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:28:14.047+0000] {processor.py:840} INFO - DAG(s) 'air_quality_etl' retrieved from /opt/airflow/dags/stock_etl_dag.py
+[2025-10-18T22:28:20.603+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:28:20.602+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-18T22:28:26.642+0000] {logging_mixin.py:188} INFO - [2025-10-18T22:28:26.640+0000] {dag.py:3947} INFO - Setting next_dagrun for air_quality_etl to 2025-10-18 22:00:00+00:00, run_after=2025-10-18 23:00:00+00:00
+[2025-10-18T22:28:35.644+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_etl_dag.py took 19.648 seconds

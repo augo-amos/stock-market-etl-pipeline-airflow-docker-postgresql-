@@ -1,0 +1,23 @@
+[2025-10-20T16:58:56.385+0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-10-20T16:59:01.554+0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_etl.fetch_task manual__2025-10-20T13:45:40+00:00 [queued]>
+[2025-10-20T16:59:07.137+0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_etl.fetch_task manual__2025-10-20T13:45:40+00:00 [queued]>
+[2025-10-20T16:59:07.137+0300] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-10-20T16:59:09.107+0300] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): fetch_task> on 2025-10-20 13:45:40+00:00
+[2025-10-20T16:59:09.119+0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'stock_etl', 'fetch_task', 'manual__2025-10-20T13:45:40+00:00', '--job-id', '54', '--raw', '--subdir', 'DAGS_FOLDER/stock_etl_dag.py', '--cfg-path', '/tmp/tmp_sejyycs']
+[2025-10-20T16:59:09.123+0300] {standard_task_runner.py:91} INFO - Job 54: Subtask fetch_task
+[2025-10-20T16:59:09.129+0300] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=173) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-20T16:59:09.130+0300] {standard_task_runner.py:64} INFO - Started process 181 to run task
+[2025-10-20T16:59:17.222+0300] {task_command.py:426} INFO - Running <TaskInstance: stock_etl.fetch_task manual__2025-10-20T13:45:40+00:00 [running]> on host 105354f25aab
+[2025-10-20T16:59:41.974+0300] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='stock_etl' AIRFLOW_CTX_TASK_ID='fetch_task' AIRFLOW_CTX_EXECUTION_DATE='2025-10-20T13:45:40+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-20T13:45:40+00:00'
+[2025-10-20T16:59:41.975+0300] {taskinstance.py:430} INFO - ::endgroup::
+[2025-10-20T16:59:42.032+0300] {stock_etl_dag.py:29} INFO - Fetching data for NVDA
+[2025-10-20T16:59:44.233+0300] {stock_etl_dag.py:29} INFO - Fetching data for TSLA
+[2025-10-20T16:59:47.346+0300] {stock_etl_dag.py:29} INFO - Fetching data for MSFT
+[2025-10-20T16:59:50.748+0300] {stock_etl_dag.py:29} INFO - Fetching data for GOOGL
+[2025-10-20T16:59:56.499+0300] {stock_etl_dag.py:46} INFO - Fetched data for all tickers successfully.
+[2025-10-20T16:59:56.500+0300] {python.py:237} INFO - Done. Returned value was: None
+[2025-10-20T16:59:56.501+0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-10-20T17:00:00.632+0300] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=stock_etl, task_id=fetch_task, run_id=manual__2025-10-20T13:45:40+00:00, execution_date=20251020T134540, start_date=20251020T135901, end_date=20251020T140000
+[2025-10-20T17:00:02.159+0300] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-10-20T17:00:05.225+0300] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-10-20T17:00:05.471+0300] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,19 @@
+[2025-10-15T15:56:27.358+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-10-15T15:56:27.390+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_market_etl.transform_task manual__2025-10-15T15:56:21.888532+00:00 [queued]>
+[2025-10-15T15:56:27.399+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_market_etl.transform_task manual__2025-10-15T15:56:21.888532+00:00 [queued]>
+[2025-10-15T15:56:27.399+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 4
+[2025-10-15T15:56:27.454+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): transform_task> on 2025-10-15 15:56:21.888532+00:00
+[2025-10-15T15:56:27.463+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'stock_market_etl', 'transform_task', 'manual__2025-10-15T15:56:21.888532+00:00', '--job-id', '69', '--raw', '--subdir', 'DAGS_FOLDER/stock_etl_dag.py', '--cfg-path', '/tmp/tmpuzg8ja_0']
+[2025-10-15T15:56:27.466+0000] {standard_task_runner.py:91} INFO - Job 69: Subtask transform_task
+[2025-10-15T15:56:27.469+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=232) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-15T15:56:27.470+0000] {standard_task_runner.py:64} INFO - Started process 234 to run task
+[2025-10-15T15:56:27.613+0000] {task_command.py:426} INFO - Running <TaskInstance: stock_market_etl.transform_task manual__2025-10-15T15:56:21.888532+00:00 [running]> on host 963b21de5f97
+[2025-10-15T15:56:27.790+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='stock_market_etl' AIRFLOW_CTX_TASK_ID='transform_task' AIRFLOW_CTX_EXECUTION_DATE='2025-10-15T15:56:21.888532+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-15T15:56:21.888532+00:00'
+[2025-10-15T15:56:27.792+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-10-15T15:56:27.841+0000] {stock_etl_dag.py:62} INFO - Transformed 10 records.
+[2025-10-15T15:56:27.842+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-10-15T15:56:27.842+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-10-15T15:56:28.127+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=stock_market_etl, task_id=transform_task, run_id=manual__2025-10-15T15:56:21.888532+00:00, execution_date=20251015T155621, start_date=20251015T155627, end_date=20251015T155628
+[2025-10-15T15:56:28.249+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-10-15T15:56:28.269+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-10-15T15:56:28.353+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

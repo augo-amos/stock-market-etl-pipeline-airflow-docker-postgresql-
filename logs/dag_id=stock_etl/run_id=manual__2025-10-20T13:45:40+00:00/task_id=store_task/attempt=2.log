@@ -1,0 +1,19 @@
+[2025-10-20T17:32:22.614+0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-10-20T17:32:25.519+0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_etl.store_task manual__2025-10-20T13:45:40+00:00 [queued]>
+[2025-10-20T17:32:29.688+0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_etl.store_task manual__2025-10-20T13:45:40+00:00 [queued]>
+[2025-10-20T17:32:29.689+0300] {taskinstance.py:2306} INFO - Starting attempt 2 of 2
+[2025-10-20T17:32:33.720+0300] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): store_task> on 2025-10-20 13:45:40+00:00
+[2025-10-20T17:32:34.597+0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'stock_etl', 'store_task', 'manual__2025-10-20T13:45:40+00:00', '--job-id', '63', '--raw', '--subdir', 'DAGS_FOLDER/stock_etl_dag.py', '--cfg-path', '/tmp/tmpmorcbs7c']
+[2025-10-20T17:32:34.628+0300] {standard_task_runner.py:91} INFO - Job 63: Subtask store_task
+[2025-10-20T17:32:34.628+0300] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=160) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-20T17:32:34.635+0300] {standard_task_runner.py:64} INFO - Started process 168 to run task
+[2025-10-20T17:32:44.997+0300] {task_command.py:426} INFO - Running <TaskInstance: stock_etl.store_task manual__2025-10-20T13:45:40+00:00 [running]> on host edb426770513
+[2025-10-20T17:33:05.844+0300] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='stock_etl' AIRFLOW_CTX_TASK_ID='store_task' AIRFLOW_CTX_EXECUTION_DATE='2025-10-20T13:45:40+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-20T13:45:40+00:00'
+[2025-10-20T17:33:05.848+0300] {taskinstance.py:430} INFO - ::endgroup::
+[2025-10-20T17:33:10.890+0300] {logging_mixin.py:188} WARNING - /opt/airflow/dags/stock_etl_dag.py:95 FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+[2025-10-20T17:33:16.062+0300] {stock_etl_dag.py:102} INFO - Loaded 4 records into Aiven PostgreSQL successfully.
+[2025-10-20T17:33:16.064+0300] {python.py:237} INFO - Done. Returned value was: None
+[2025-10-20T17:33:16.066+0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-10-20T17:33:20.376+0300] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=stock_etl, task_id=store_task, run_id=manual__2025-10-20T13:45:40+00:00, execution_date=20251020T134540, start_date=20251020T143225, end_date=20251020T143320
+[2025-10-20T17:33:22.500+0300] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-10-20T17:33:25.800+0300] {local_task_job_runner.py:222} INFO - ::endgroup::

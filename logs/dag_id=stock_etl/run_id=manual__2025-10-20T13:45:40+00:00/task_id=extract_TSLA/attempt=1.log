@@ -1,0 +1,17 @@
+[2025-10-20T16:46:22.171+0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-10-20T16:46:25.600+0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_etl.extract_TSLA manual__2025-10-20T13:45:40+00:00 [queued]>
+[2025-10-20T16:46:26.639+0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_etl.extract_TSLA manual__2025-10-20T13:45:40+00:00 [queued]>
+[2025-10-20T16:46:26.640+0300] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-10-20T16:46:27.741+0300] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): extract_TSLA> on 2025-10-20 13:45:40+00:00
+[2025-10-20T16:46:27.756+0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'stock_etl', 'extract_TSLA', 'manual__2025-10-20T13:45:40+00:00', '--job-id', '42', '--raw', '--subdir', 'DAGS_FOLDER/stock_etl_dag.py', '--cfg-path', '/tmp/tmp5_xme0q4']
+[2025-10-20T16:46:27.761+0300] {standard_task_runner.py:91} INFO - Job 42: Subtask extract_TSLA
+[2025-10-20T16:46:27.769+0300] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=197) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-20T16:46:27.770+0300] {standard_task_runner.py:64} INFO - Started process 208 to run task
+[2025-10-20T16:46:47.884+0300] {task_command.py:426} INFO - Running <TaskInstance: stock_etl.extract_TSLA manual__2025-10-20T13:45:40+00:00 [running]> on host 51be0a441cbc
+[2025-10-20T16:47:18.682+0300] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='stock_etl' AIRFLOW_CTX_TASK_ID='extract_TSLA' AIRFLOW_CTX_EXECUTION_DATE='2025-10-20T13:45:40+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-20T13:45:40+00:00'
+[2025-10-20T16:47:18.724+0300] {taskinstance.py:430} INFO - ::endgroup::
+[2025-10-20T16:47:23.673+0300] {python.py:237} INFO - Done. Returned value was: {"ticker": "TSLA", "queryCount": 1, "resultsCount": 1, "adjusted": true, "results": [{"T": "TSLA", "v": 89331578.0, "vw": 435.6068, "o": 425.5, "c": 439.31, "h": 441.4558, "l": 423.6, "t": 1760731200000, "n": 1598642}], "status": "OK", "request_id": "253c9a453240cae240cc327684d2c53c", "count": 1}
+[2025-10-20T16:47:23.674+0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-10-20T16:47:30.123+0300] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=stock_etl, task_id=extract_TSLA, run_id=manual__2025-10-20T13:45:40+00:00, execution_date=20251020T134540, start_date=20251020T134625, end_date=20251020T134730
+[2025-10-20T16:47:32.014+0300] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-10-20T16:47:35.055+0300] {local_task_job_runner.py:222} INFO - ::endgroup::
