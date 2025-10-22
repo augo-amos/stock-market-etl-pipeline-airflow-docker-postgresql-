@@ -1,4 +1,3 @@
-```markdown
 # Stock Market ETL Pipeline (Airflow + Docker + PostgreSQL)
 
 This project is a **real-time stock market ETL pipeline** that fetches, transforms, and stores stock data from the **Polygon.io API** using **Apache Airflow**, **Pandas**, and **PostgreSQL** (hosted on **Aiven Cloud**).  
